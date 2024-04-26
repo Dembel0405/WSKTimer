@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 99vw;
+    height: 100vh;
+    display: flex;
+    background-image: url(./img/Монтажная\ область\ 1-100.jpg );
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.cont {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+text-align: center;
+}
+
+.texxt {
+    color: white;
+    font-size: 120PX;
+    font-weight: bold;
+    font-family: Verdana;
+    margin-bottom: 10%;
+}
+
+.timer {
+    width: 100%;
+    font-size: 200px;
+    color: white;
+    font-family: Verdana;
+    font-weight: bold;
+    
+}
+
+button {
+    width: 50px;
+    background: none;
+    border-style: none;
+}
+
+img {
+    width: 50px;
+    
+}
+.btn {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
